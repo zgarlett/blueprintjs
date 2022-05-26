@@ -1,0 +1,27 @@
+{
+  "name": "blueprint-sandbox",
+  "version": "1.0.0",
+  "description": "Sandbox for testing Blueprint code",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@blueprintjs/core": "4.3.0",
+    "@blueprintjs/datetime": "4.2.0",
+    "@blueprintjs/icons": "4.2.5",
+    "@blueprintjs/popover2": "1.2.0",
+    "@blueprintjs/select": "4.2.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts-ts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.9.46",
+    "@types/react-dom": "16.9.8"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
